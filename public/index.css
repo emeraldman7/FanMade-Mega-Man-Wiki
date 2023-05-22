@@ -1,0 +1,7 @@
+.navi {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: rgb(193, 193, 192);
+    text-align: center;
+}
