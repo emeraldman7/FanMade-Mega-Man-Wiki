@@ -7,11 +7,7 @@ import App from './components/app';
 
 const root = createRoot(document.querySelector('#app'))
 
-root.render(<NavBar />)
-root.render(<MegaHi />)
+root.render(<App />)
 
-function render () {
-    <App />
-}
 
 

@@ -1,7 +1,23 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .navi {
     display: flex;
     background-color: black;
     justify-content: space-around;
     color: rgb(193, 193, 192);
     text-align: center;
+}
+
+.ActivateText {
+    display: flex;
+    background-color: rgb(47, 47, 165);
+    align-content: flex-start;
+    width: 150px;
+    height: 20px;
+    color: lightblue;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 1px;
 }
