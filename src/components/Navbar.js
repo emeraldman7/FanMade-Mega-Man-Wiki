@@ -18,6 +18,10 @@ function NavBar() {
     <h2 className= "category">
     Cameos
     </h2>
+
+    <h2 className= "category">
+    Best Fan Games
+    </h2>
     
     </div>
     </>

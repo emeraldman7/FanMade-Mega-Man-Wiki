@@ -1,23 +1,37 @@
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .navi {
-    display: flex;
-    background-color: black;
-    justify-content: space-around;
-    color: rgb(193, 193, 192);
-    text-align: center;
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  color: rgb(193, 193, 192);
+  text-align: center;
 }
 
 .ActivateText {
+  display: flex;
+  background-color: rgb(47, 47, 165);
+  align-content: flex-start;
+  width: 150px;
+  height: 50px;
+  color: lightblue;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 1px;
+}
+
+.Welcoming {
     display: flex;
-    background-color: rgb(47, 47, 165);
-    align-content: flex-start;
-    width: 150px;
-    height: 20px;
-    color: lightblue;
-    border: 5px solid black;
-    padding: 10px;
-    margin: 1px;
+    background-color: lightcyan;
+    align-content: center;
+    border-top: 2px solid rgb(102, 102, 102);
+    border-bottom: 2px solid rgb(102, 102, 102);
+    font-size: 85px;
+}
+
+.Describe {
+    display: flex;
+    font-size: 20px;
 }
