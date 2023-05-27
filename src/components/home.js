@@ -1,5 +1,5 @@
 import React from "react";
-import useState from "react";
+import { useState } from "react";
 
 function MegaHi() {
   return (
@@ -15,21 +15,14 @@ function MegaHi() {
   );
 }
 
-function Question() {
+function Question({ onClick }) {
   const [setPopUp, popUp] = useState(false);
   return (
     <>
       <div>
-        <h2 className="ActivateText" onClick={() => setPopUp(true)}>
+        <h2 className="ActivateText" onClick={onClick}>
           What Is This Website?
         </h2>
-      
-
-      {popUp && 
-        <div>
-          <DescPopUp />
-        </div>
-      }
       </div>
     </>
   );
